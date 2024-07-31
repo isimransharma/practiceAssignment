@@ -1,14 +1,10 @@
+/** @format */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* .page-container{background: linear-gradient(
-  107deg,
-  rgba(77, 164, 217, 0.12) 2.27%,
-  rgba(35, 142, 207, 0.12) 103.17%
-); */
-
 
 .navbar-container {
   background: linear-gradient(
@@ -16,23 +12,28 @@
     rgba(77, 164, 217, 0.12) 2.27%,
     rgba(35, 142, 207, 0.12) 103.17%
   );
-  padding: 0 41.31px;
-  padding-top: 43.55px;
-  padding-bottom: 92.45px;
-
-  
+  padding: 43.55px 38.5px 92.45px 38.5px;
 }
-.container1 {
+
+.logo-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 92.45px;
-  
+  margin: 0 41.48px 92.45px 41.31px;
 }
 
-.image img {
-  width: 170px;
-  height: 45.624px;
+.arrow-curve {
+  width: 101px;
+  height: 64.624px;
+  position: absolute;
+  bottom: -19.51px;
+  right: 70px;
 }
+
+.btn-container {
+  margin-top: 32px;
+  position: relative;
+}
+
 .signup-btn {
   display: flex;
   padding: 16px var(--5, 40px);
@@ -49,11 +50,17 @@
   line-height: normal;
   border: 0px solid transparent;
 }
-.tryContainer {
-  width:  623px;
-  height: 340px;
+.contentContainer {
+  width: 623px;
+  /* height: 340px; */
   margin-left: 41.4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100%;
 
+  /* background-color: yellow; */
 }
 .heading1 {
   color: #063047;
@@ -91,7 +98,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 187.5% */
-  width: 623px;
+  /* width: 623px; */
 }
 .trial-btn {
   display: flex;
@@ -113,8 +120,8 @@
 }
 
 .arrow {
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   width: 45.291px;
   height: 45.291px;
   flex-shrink: 0;
@@ -122,29 +129,36 @@
   border-radius: 50%;
   padding: 10px;
 }
-.arrow-image {
+
+.flexcontainer {
   display: flex;
+  justify-content: space-around;
+  margin-left: 41.4px;
+  margin-right: 40.6px;
+  height: 469px;
+  /* background-color: yellowgreen; */
 }
 
-.flexcontainer{
-  display: flex;
+.imagecontainer {
+  position: relative;
+  width: 30.1%;
+  height: 43.52%;
 }
-.rectangular-image1>img{
+.rectangular-image1 {
   width: 548px;
-height: 469px;
-margin-right: 40.6px;
-flex-shrink: 0;
-position: absolute;
-
-
+  height: 469px;
+  margin-right: 40.6px;
+  flex-shrink: 0;
+  position: absolute;
 }
-.icon{
-  position:relative;
+.play-icon {
+  position: relative;
   top: 190px;
   right: -250px;
 }
-.symbol{
+.droplets {
   position: relative;
   top: -150px;
   right: -490px;
 }
+/* Test */
