@@ -161,6 +161,12 @@
   top: -150px;
   right: -490px;
 }
+
+/*================= SECTION2 =================== */
+.Section2-container {
+  padding-left: 80px;
+  padding-right: 125px;
+}
 .musiclesson-container {
   width: 677px;
   height: 209px;
@@ -197,11 +203,28 @@
 }
 .para-2 {
   color: rgba(103, 111, 115, 1);
+  padding-top: 24px;
 }
+.subSection2-container {
+  display: flex;
+}
+
 .fun-container {
-  width: 333px;
-  height: 170px;
+  /* width: 333px;
+  height: 170px; */
+  /* padding: 40px 40px 48px 40px; */
+  display: flex;
+  padding: var(--5, 40px) var(--5, 40px) var(--6, 48px) var(--5, 40px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 0px 250px 0px rgba(7, 104, 159, 0.16);
+  margin: 32px;
 }
+
 .heading-fun {
   color: #063047;
   font-family: Inter;
@@ -211,6 +234,11 @@
   line-height: 26px; /* 130% */
   text-transform: capitalize;
 }
+.flex-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
 .fun-content {
   color: #676f73;
   font-family: Poppins;
@@ -218,10 +246,23 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 187.5% */
+  padding-top: 24px;
 }
 .community-container {
-  width: 333px;
-  height: 170px;
+  /* width: 333px;
+  height: 170px; */
+  /* padding: 40px 40px 48px 40px; */
+  display: flex;
+  height: 258px;
+  padding: var(--5, 40px) var(--5, 40px) var(--6, 48px) var(--5, 40px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 0px 250px 0px rgba(7, 104, 159, 0.16);
+  margin: 32px;
 }
 .heading-community {
   color: #063047;
@@ -239,11 +280,26 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 187.5% */
+  padding: 24px;
 }
 .flexible-container {
-  width: 333px;
-  height: 170px;
+  /* width: 333px;
+  height: 170px; */
+  /* padding: 40px 40px 48px 40px; */
+  display: flex;
+  height: 258px;
+  padding: var(--5, 40px) var(--5, 40px) var(--6, 48px) var(--5, 40px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 0px 250px 0px rgba(7, 104, 159, 0.16);
+  position: relative;
+  margin: 32px;
 }
+
 .heading-flexible {
   color: #063047;
   font-family: Inter;
@@ -253,11 +309,51 @@
   line-height: 26px; /* 130% */
   text-transform: capitalize;
 }
-.flexible.content {
+.flexible-content {
   color: #676f73;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 187.5% */
+  padding-top: 24px;
+}
+.community-droplets {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+}
+
+.myspot-btn {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+
+  display: inline-flex;
+  padding: var(--1, 8px) 8px var(--1, 8px) 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: var(--7, 56px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  background: linear-gradient(90deg, #07689f 0%, #338dbf 100%);
+  border: 0px solid transparent;
+}
+.btn2-arrow {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  background-color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
 }
