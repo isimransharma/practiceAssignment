@@ -163,9 +163,10 @@
 }
 
 /*================= SECTION2 =================== */
-.Section2-container {
+.section2-container {
   padding-left: 80px;
-  padding-right: 125px;
+  padding-right: 80px;
+  padding-top: 100px;
 }
 .musiclesson-container {
   width: 677px;
@@ -189,6 +190,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-top: 8px;
 }
 .heading6 {
   background: linear-gradient(90deg, #07689f 61.25%, #338dbf 92.94%);
@@ -332,7 +334,7 @@
   font-weight: 500;
   line-height: normal;
   text-transform: capitalize;
-
+  padding-top: 6px;
   display: inline-flex;
   padding: var(--1, 8px) 8px var(--1, 8px) 20px;
   justify-content: center;
@@ -356,4 +358,48 @@
   width: 24px;
   height: 24px;
   flex-shrink: 0;
+}
+/* --section3---- */
+.section3-container {
+  width: 1440px;
+  height: 630px;
+  background: linear-gradient(
+    90deg,
+    rgba(7, 104, 159, 0.88) 0.13%,
+    rgba(51, 141, 191, 0.88) 99.9%
+  );
+  display: flex;
+}
+
+.map-image {
+  width: 576px;
+  height: 430px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: url(<path-to-image>) lightgray -36.809px -11.584px / 117.502%
+      105.485% no-repeat,
+    #fff;
+}
+.Twelevetone-container {
+  width: 524px;
+  height: 354px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--6, 48px);
+}
+.heading-7 {
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Twelevetone-content {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
 }
