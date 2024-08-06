@@ -255,7 +255,7 @@
   height: 170px; */
   /* padding: 40px 40px 48px 40px; */
   display: flex;
-  height: 258px;
+
   padding: var(--5, 40px) var(--5, 40px) var(--6, 48px) var(--5, 40px);
   flex-direction: column;
   align-items: flex-start;
@@ -289,7 +289,7 @@
   height: 170px; */
   /* padding: 40px 40px 48px 40px; */
   display: flex;
-  height: 258px;
+
   padding: var(--5, 40px) var(--5, 40px) var(--6, 48px) var(--5, 40px);
   flex-direction: column;
   align-items: flex-start;
@@ -361,6 +361,7 @@
 }
 /* --section3---- */
 .section3-container {
+  /* display: flex; */
   width: 1440px;
   height: 630px;
   background: linear-gradient(
@@ -369,26 +370,43 @@
     rgba(51, 141, 191, 0.88) 99.9%
   );
   display: flex;
+  align-items: center;
 }
 
 .map-image {
+  margin: 100px 80px;
   width: 576px;
   height: 430px;
   flex-shrink: 0;
+  border: 2px solid transparent;
   border-radius: 24px;
-  background: url(<path-to-image>) lightgray -36.809px -11.584px / 117.502%
-      105.485% no-repeat,
-    #fff;
+  background: url("./assets/map.jpg") no-repeat;
+  background-color: lightgray -36.809px -11.584px / 117.502% 105.485%, #fff;
+  /* background-size: contain; */
 }
 .Twelevetone-container {
   width: 524px;
   height: 354px;
+  /* padding-left: 80px; */
+
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--6, 48px);
 }
+.tone-innercontainer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--5, 40px);
+}
+.display-flex {
+  display: flex;
+  gap: 32px;
+}
 .heading-7 {
+  color: #fff;
+
   font-family: Inter;
   font-size: 48px;
   font-style: normal;
