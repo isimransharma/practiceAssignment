@@ -422,9 +422,10 @@
   line-height: 30px; /* 166.667% */
 }
 /*-------------section-4--------- */
-.section4-conatiner {
+.section4-container {
   /* width: 1440px;
   height: 7175px; */
+  position: relative;
 }
 
 .heading-kidssay {
@@ -474,7 +475,9 @@
   border-radius: 24px;
   background: #fff;
   box-shadow: 0px 0px 250px 0px rgba(7, 104, 159, 0.16);
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  right: -100px;
 }
 .content-heading1 {
   color: #042c42;
@@ -509,4 +512,10 @@
   position: absolute;
   top: -40px;
   right: -40px;
+}
+
+.ellipseimg-container4 {
+  display: flex;
+  width: 268px;
+  height: 64px;
 }
