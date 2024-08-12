@@ -6,8 +6,8 @@
   box-sizing: border-box;
 }
 .main-container {
-  width: 98.5vw;
-  overflow-x: hidden;
+  width: 98.7vw;
+  overflow: hidden;
 }
 
 .navbar-container {
@@ -431,6 +431,7 @@
   /* width: 1440px;
   height: 7175px; */
   position: relative;
+  padding-bottom: 400px;
 }
 
 .heading-kidssay {
@@ -526,4 +527,38 @@
   height: 64px;
   position: absolute;
   bottom: -28px;
+  left: 50px;
+}
+
+.image1 {
+  position: absolute;
+  left: 50;
+  /* z-index: 3; */
+  background-color: transparent;
+}
+
+.image2 {
+  position: absolute;
+  left: 60px;
+  /* z-index: 0; */
+  background-color: transparent;
+  /* top: 0; */
+  /* border-radius: 40px; */
+}
+.image3 {
+  position: absolute;
+  left: 120px;
+  background-color: transparent;
+}
+.image4 {
+  position: absolute;
+  left: 160px;
+  background-color: transparent;
+  /* top: 0; */
+}
+.image5 {
+  position: absolute;
+  left: 200px;
+  background-color: transparent;
+  border-radius: 50px;
 }
