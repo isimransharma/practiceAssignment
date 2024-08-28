@@ -864,6 +864,22 @@
   /* align-items: center; */
 }
 /* -----------section-7----------------- */
+.section7-container {
+  width: 1280px;
+  height: 385.858px;
+  flex-shrink: 0;
+  border-radius: var(--5, 40px);
+  background: #ffd878;
+  position: relative;
+}
+.mainheading7-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 89.3px;
+  flex-direction: column;
+  text-align: center;
+}
+
 .heading7-cont {
   color: #042c42;
   text-align: center;
@@ -883,4 +899,23 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.btn-container7 {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 32px;
+}
+.signup-btn {
+  display: inline-flex;
+  padding: 16px var(--5, 40px);
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: var(--7, 56px);
+  background: linear-gradient(89deg, #07689f 0.47%, #338dbf 99.43%);
+}
+.sec7-images {
+  position: absolute;
+  top: 40px;
 }
