@@ -890,12 +890,7 @@
   right: 0;
   bottom: 0;
   /* background-color: rgb(255, 255, 255, 0.8); */
-  background: linear-gradient(
-    270deg,
-    rgba(255, 255, 255, 0) 0.47%,
-    #fff 99.62%
-  );
-  /* opacity: 0.2; */
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.47%, #fff 99.62%);
 }
 
 .rightcontent-container6 {
